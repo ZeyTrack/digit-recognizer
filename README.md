@@ -4,8 +4,8 @@ MNIST ("Modified National Institute of Standards and Technology") is the de fact
 
 In this competition, your goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. We’ve curated a set of tutorial-style kernels which cover everything from regression to neural networks. We encourage you to experiment with different algorithms to learn first-hand what works well and how techniques compare.
 
-
-#1.Setting up the Project:
+## Implementation
+1.Setting up the Project:
 Installed Gradio, a Python library for creating user interfaces for machine learning models, and SHAP (SHapley Additive exPlanations) library, used for explaining model outputs.
 
 2.Data Cleaning:
@@ -31,5 +31,6 @@ Printed a confusion matrix and classification report for model predictions on th
 
 .Utilized Gradio to enable uploading a grayscale 28 by 28 image and outputting the predicted class.
 .Applied SHAP values on the uploaded image and displayed them in the Gradio app along with the predicted class.
+
 By following these steps, the project is designed to handle data, train a multiclass classification model, evaluate its performance, and deploy it with explainability features using Gradio and SHAP.
 
