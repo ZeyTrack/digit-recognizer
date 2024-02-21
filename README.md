@@ -34,3 +34,5 @@ Printed a confusion matrix and classification report for model predictions on th
 
 By following these steps, the project is designed to handle data, train a multiclass classification model, evaluate its performance, and deploy it with explainability features using Gradio and SHAP.
 
+##All about dataset
+https://www.kaggle.com/competitions/digit-recognizer/data
